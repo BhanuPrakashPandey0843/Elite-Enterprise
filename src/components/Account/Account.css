@@ -1,0 +1,17 @@
+.accountfile li.active .c-link {
+    color: #8F3300;
+}
+.addrescard:hover{
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 6px 2px 0 rgba(0, 0, 0, .19) !important;
+      
+        color: #8F3300 !important;
+}
+.accountfile .btnlogout{
+background-color: #8F3300;
+color: white;
+border: none;
+}
+.modalbox .modal-header{
+background-color: #c5a397 !important;
+color: white;
+}

@@ -1,0 +1,44 @@
+.blogcls .datecls{
+    color: #652700;
+    text-align: center;
+    font-family: Roboto;
+    font-weight: 800;
+}
+.blogcls .overlay-container {
+    position: absolute;
+   height: 50%;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+ 
+   
+  }
+.blogcls .c-2 {
+    color: #525c60;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 165.4%;
+}
+ .blogcls .cname,.blogcls .c-1,.blogcls .readmore {
+     color: #652700;
+     font-family: Roboto;
+ }
+  @media only screen and (max-width: 378px) {
+    .blogcls .ccol
+    {
+        margin-bottom: 84px;
+    } 
+  }
+  @media only screen and (max-width: 280px) {
+    .blogcls .crow
+    {
+        gap: 100px;
+    }   
+    .blogcls .ccol
+    {
+        margin-bottom: 84px;
+    }  
+    .blogcls .overlay-container {
+        top: 150px;
+    } 
+  }

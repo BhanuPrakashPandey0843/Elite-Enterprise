@@ -1,0 +1,18 @@
+.sblog .sb-card {
+    margin-top: -50px;
+}
+.sblog .srow p{
+    color: #652700;
+    font-family: Roboto;
+}
+ .sblog span,.sblog h3,.sblog h5 {
+     color: #652700;
+     font-family: Roboto;
+ }
+ .sblog .Established-text,
+ .sblog .Uniquelymatrix p,
+ 
+ .sblog li {
+     color: #8f3300;
+     font-family: Open Sans;
+ }

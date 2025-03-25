@@ -1,0 +1,105 @@
+.homecarousel button{
+
+    border-radius: 10px;
+    background-color: #652700;
+    color: white;
+    border: none;
+}
+.homecarousel h5{
+    font-weight: 800;
+    font-family: 'Roboto';
+}
+.homecarousel .carousel-indicators{
+    display: none !important;
+}
+
+/* Carouselfile.css */
+/* For small screens */
+
+ .homecarousel .carouselimg {
+filter: brightness(0.9);
+ }
+
+
+
+ .homecarousel .carousel-caption {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+ }
+/* For small screens */
+@media (max-width: 767px) {
+    /* Center the previous and next icons vertically */
+    .homecarousel .carouselbtns  .rightangle,
+    .homecarousel .carouselbtns .leftangle {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px !important;
+      height: 30px !important;
+     padding: 5px !important;
+    }
+    .homecarousel .carouselimg{
+      height: 300px !important;
+    }
+    .homecarousel .carousel-caption .caption-content{
+      text-align: center !important;
+      justify-content: center;
+      width: 100% !important;
+      
+    }
+       
+  }
+     .homecarousel .caption-content .shopnowbtn {
+       justify-content: center !important;
+       text-align: center !important;
+       width: 100% !important;
+       display: flex;
+     }
+  .homecarousel  .rightangle,
+  .homecarousel  .leftangle {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translateY(-50%);
+  }
+/* For large screens */
+  
+@media (min-width: 767px){
+  .homecarousel .carousel-caption
+  {
+    height: 100%;
+  }
+  .homecarousel .carousel-caption h5{
+    font-size: 50px;
+  }
+     .homecarousel .carousel-caption p {
+       font-size: 20px;
+     }
+    .homecarousel .carouseldiv .carouselimg {
+      height: 550px;
+    }
+     
+}
+ .homecarousel .carousel-caption {
+  bottom: 1.25rem;
+  color: #fff;
+  left: 15%;
+  padding-bottom: 1.25rem;
+  padding-top: 1.25rem;
+  position: absolute;
+  right: 15%;
+  text-align: center;
+}
+ .homecarousel .rightangle,
+ .homecarousel .leftangle {
+  color: white !important;
+  width: 45px !important;
+  height: 45px !important;
+  background: #000066 !important;
+  border-radius: 50% !important;
+  padding: 10px !important;
+
+}

@@ -1,0 +1,43 @@
+.imgsgrid .p1{
+color: #8F3300;
+font-family: Yellowtail;
+font-weight: 400;
+
+}
+.imgsgrid .p2{
+    color: #000;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+    
+}
+.imgsgrid h3{
+color: #FFA858;
+font-family: Roboto;
+font-weight: 800;
+}
+.imgsgrid h6{
+    color: #8F3300;
+    font-family: Roboto;
+    font-weight: 800;
+   
+}
+.imgsgrid button{
+    color: white;
+    border-radius: 16px;
+    background: #3A2723;
+    font-weight: 700;
+}
+.imgsgrid .natural {
+
+  font-family: Yellowtail;
+
+}
+.imgsgrid .chocoimg {
+  height:350px;
+
+}
+.imgsgrid .chocoimg:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 6px 2px 0 rgba(0, 0, 0, .19);
+
+}

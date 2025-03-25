@@ -1,0 +1,60 @@
+.cartpage .shopcards {
+
+    cursor: pointer;
+}
+
+.cartpage .shopcards:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 6px 2px 0 rgba(0, 0, 0, .19);
+
+}
+
+.cartpage .cardimg {
+    overflow: hidden;
+}
+
+.cartpage .cardimg .prdctimg {
+    transition: all 1.3s ease;
+}
+
+.cartpage .cardimg:hover .prdctimg {
+    transform: scale(0.8);
+}
+@media screen and (max-width: 760px) {
+    .cartpage #prdctimg1{
+        width: 50px !important;
+        height: 50px !important;
+    }
+}
+.btna{
+   
+  background-color: #8F3300;
+   color: white;
+  border: none;
+
+}
+.cartpage .coupon{
+    background-color: #DBD0D3;
+
+        border: none;
+}
+.cartpage .cartremove-btn{
+    border: 1px solid #652700;
+    background-color: white;
+}
+.inc-dec-btn{
+background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+ .inc-dec-btn:hover{
+background-color: #dee2e6;
+}
+.cartpage .cartremove-btn:hover {
+    
+    background-color: #652700;
+    border: none;
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2), 0 6px 2px 0 rgba(0, 0, 0, .19);
+}
+.Qty{
+border: 1px solid #dee2e6;
+}

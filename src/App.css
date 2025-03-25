@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Comfortaa&family=Poppins&family=Viga&family=Roboto&family=OpenSans&family=Yellowtail&display=swap&family=Abel');
+.app{
+    overflow: hidden;
+}
+.modal-footer .btn-primary{
+    background-color: rgb(143, 51, 0) !important;
+    border: none;
+}
+.modal-open{
+    overflow: none;
+
+}
+.cartlink{
+    list-style: none !important;
+    text-decoration: none !important;
+    color: black !important;
+}

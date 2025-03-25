@@ -1,0 +1,43 @@
+/* Styles for the custom "Previous" and "Next" buttons */
+.brandsliding .custom-prev-arrow,
+.brandsliding .custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    /* Vertically center the buttons */
+    transform: translateY(-50%);
+    background-color: #fff;
+    /* Background color for the buttons */
+    padding: 10px 15px;
+    /* Adjust padding as needed */
+    border: 1px solid #ccc;
+    /* Border styles */
+    cursor: pointer;
+}
+
+.brandsliding .custom-prev-arrow {
+    left: 10px;
+    /* Position the "Previous" button on the left */
+}
+
+.brandsliding .custom-next-arrow {
+    right: 10px;
+    /* Position the "Next" button on the right */
+}
+
+.brandsliding .slick-next,.slick-next:before{
+    display: none;
+}
+.brandsliding .slick-prev,.slick-prev:before {
+    display: none;
+}
+ .brandsliding .brandimg{
+    width: 250px;
+    height: 200px;
+    resize: both;
+ }
+ @media screen and (max-width: 760px) {
+    .brandsliding .brandimg {
+            width: 100% !important;
+          
+        }
+ }

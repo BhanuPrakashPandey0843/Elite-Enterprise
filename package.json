@@ -1,0 +1,70 @@
+{
+	"name": "login_page",
+	"version": "1.0.0",
+	"private": true,
+	"homepage": ".",
+	"dependencies": {
+		"@babel/plugin-proposal-private-property-in-object": "^7.2.11",
+		"@lottiefiles/react-lottie-player": "^3.5.3",
+		"@testing-library/jest-dom": "^6.2.0",
+		"@testing-library/react": "^14.1.2",
+		"@testing-library/user-event": "^14.5.2",
+		"aos": "^2.3.4",
+		"axios": "^1.6.5",
+		"bootstrap": "^5.3.2",
+		"bootstrap-icons": "^1.11.3",
+		"carousel": "^0.0.3",
+		"crypto-js": "^4.2.0",
+		"dompurify": "^3.0.11",
+		"framer-motion": "^12.5.0",
+		"js-cookie": "^3.0.5",
+		"jsonwebtoken": "^9.0.2",
+		"razorpay": "^2.9.2",
+		"react": "^18.2.0",
+		"react-bootstrap": "^2.10.0",
+		"react-dom": "^18.2.0",
+		"react-fast-marquee": "^1.6.2",
+		"react-icons": "^5.0.1",
+		"react-multilevel-dropdown": "^4.0.0",
+		"react-redux": "^9.1.0",
+		"react-router-dom": "^6.21.2",
+		"react-scripts": "5.0.1",
+		"react-select": "^5.8.0",
+		"react-simple-wysiwyg": "^3.0.2",
+		"react-slick": "^0.29.0",
+		"react-spring": "^9.7.3",
+		"react-transition-group": "^4.4.5",
+		"redux": "^5.0.1",
+		"redux-thunk": "^3.1.0",
+		"sass": "^1.77.6",
+		"slick-carousel": "^1.8.1",
+		"web-vitals": "^3.5.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		],
+		"rules": {
+			"jsx-a11y/img-redundant-alt": "off"
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}

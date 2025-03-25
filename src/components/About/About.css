@@ -1,0 +1,47 @@
+/* CSS for About component */
+
+/* Header section styles */
+.aboutcls .aboutus {
+    color: #8F3300;
+    font-family: Yellowtail;
+    font-weight: 400;
+}
+
+.aboutcls h3 {
+    color: #000;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.aboutcls p {
+    color: #3F4040;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 165.4%;
+    /* 29.772px */
+}
+
+/* Styles for the second row */
+.aboutcls .whychoosediv p {
+    color: #B27B60;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 165.4%;
+    /* 29.772px */
+}
+
+.aboutcls span {
+    color: #000 !important;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.custom-mt {
+    margin-top: 350px; /* Adjust the value as needed */
+    padding: 50px;
+  }
+
+  .custom-mt-less {
+    margin-top: 50px; /* Adjust the value as needed */
+    padding: 50px;
+  }

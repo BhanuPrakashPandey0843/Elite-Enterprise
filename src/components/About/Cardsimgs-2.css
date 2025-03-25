@@ -1,0 +1,27 @@
+.cardimgscls-2 .text-1{
+    color: #8F3300;
+    font-family: Roboto;
+    font-weight: 800;
+}
+.cardimgscls-2 .text-2{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+}
+
+@media (min-width: 1024px) {
+    .cardimgscls-2 .cardimgscls-div{
+        position: relative;
+    }
+  .cardimgscls-2 .about-cards {
+            height: 490px;
+    }
+    .cardimgscls-2 .cardsrow{
+        position: absolute;
+        bottom: 0px;
+        left:0px;
+        right: 0px;
+    }
+}

@@ -1,0 +1,21 @@
+.brandspage2 p {
+    color: #000;
+    font-family: Yellowtail;
+    font-weight: 400;
+
+}
+
+.brandspage2 h3 {
+    color: #8F3300;
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.brandspage2 button {
+    color: #FBD198;
+    font-family: Roboto;
+    font-weight: 700;
+    border-radius: 16px;
+    background: #8F3300;
+    border: none;
+}

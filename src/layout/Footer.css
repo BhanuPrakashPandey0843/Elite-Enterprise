@@ -1,0 +1,103 @@
+/* Apply a border to the right side */
+.footercls .custom-border {
+    border-right: 1px solid #dee2e6; /* You can adjust the border style and color */
+  }
+  /* Apply a border to the right side */
+.footercls .custom-border2 {
+    border-left: 1px solid #dee2e6; /* You can adjust the border style and color */
+
+  }
+  .footercls h3{
+color: #8F3300;
+font-family: 'Roboto';
+font-weight: 700;
+
+  }
+.footercls p{
+    color: #000;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 165.4%; /* 29.772px */
+    
+}
+  
+  /* Hide the border on small screens */
+  @media (max-width: 767.98px) {
+    .footercls .custom-border {
+      border-right: none;
+    }
+    .footercls .custom-border2 {
+        border-left: none;
+      }
+  }
+ /* Add these CSS rules to your Footer.css file */
+
+
+ .footercls .whatsapp-button:after {
+   -webkit-animation: _pulse 1.2s infinite;
+   animation: _pulse 1.2s infinite;
+   border-color: inherit;
+   border-radius: 50%;
+   box-shadow: 0 0 0 0 rgba(37, 211, 101, 0);
+   content: "";
+   height: 60px;
+   left: 0;
+   position: absolute;
+   width: 60px;
+ }
+@media (max-width: 767px) {
+  .footercls .whatsapp-button{
+    bottom: 48px;
+    right: 17.5px;
+  }
+}
+ 
+
+ .whatsapp-button .whatsapp-icon {
+      color: white;
+        width: 60px;
+        height: 60px;
+        background: rgb(21, 225, 98);
+        cursor: pointer;
+        z-index: 9999;
+ }
+
+@media (min-width: 767px)  {
+  .footercls .whatsapp-button{
+    bottom: 25px;
+    right: 25px;
+  }
+
+}
+ /* keyframes */
+ @keyframes _pulse {
+   0% {
+     box-shadow: 0 0 0 0 rgba(37, 211, 101, 0.75);
+   }
+
+   100% {
+     box-shadow: 0 0 0 15px rgba(37, 211, 101, 0);
+   }
+ }
+ .footercls .link {
+  text-decoration: none;
+  /* Remove the default underline */
+    color: #000;
+      font-family: 'Open Sans';
+      font-weight: 400;
+      line-height: 165.4%;
+    
+  
+  /* Define styles for the underline on hover and when active (clicked) */
+  transition: text-decoration 0.3s;
+}
+
+.footercls .link:hover {
+  text-decoration: underline;
+  /* Show underline on hover */
+}
+
+.footercls .link:active {
+  text-decoration: underline;
+  /* Show underline when clicked */
+}

@@ -1,0 +1,10 @@
+.checkoutcls .shop_table tr:not(:last-child) {
+    margin-top: 10px;
+    margin-bottom:10px;
+    border-bottom: 1px solid rgba(236, 223, 223, 0.87) ;
+}
+.checkoutcls button{
+    background-color: #8F3300;
+    color: white;
+    border: none;
+}

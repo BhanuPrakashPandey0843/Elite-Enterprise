@@ -1,0 +1,49 @@
+.logincls .elite{
+    font-family: Viga;
+    color: #652700;
+}
+.logincls .loginaccount ,.signupcls .singupfree{
+    font-family: Abel;
+    
+}
+.logincls input ,.signupcls input{
+background: #FFECE5 ;
+border: none;
+}
+.logincls input:focus ,.signupcls input:focus{
+box-shadow: none ;
+background: #FFECE5;
+border: none;
+}
+.logincls .model{
+    padding-left: 0px;
+}
+.logincls input ,.signupcls input{
+color: #3B3B3B;
+font-family: Abel;
+}
+.logincls .forgotlink,.signupcls .haveanaccount{
+    color: #652700;
+}
+.logincls button {
+    background-color: #652700;
+    border: none;
+    color: white;
+    font-family: Abel;
+}
+
+.signupcls button {
+    background: linear-gradient(to right, #652700, #B27B60);
+    border: none;
+    color: white;
+    font-family: Abel;
+}
+.logincls .login-popup {
+    z-index: 1000;
+    /* Adjust the z-index value as needed */
+}
+.small-logo {
+    width: 30px;
+    height: 30px;
+  }
+  

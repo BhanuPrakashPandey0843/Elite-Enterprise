@@ -1,0 +1,129 @@
+/* Styles for .singleproductpage .carameldiv h3 */
+.singleproductpage .carameldiv h3 {
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 53px;
+}
+
+/* Styles for .singleproductpage p */
+.singleproductpage p {
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #525C60;
+}
+
+/* Styles for .singleproductpage .quantitycls h6 */
+.singleproductpage .quantitycls h6 {
+    font-family: Roboto;
+    font-weight: 700;
+    color: #652700;
+}
+
+/* Styles for .singleproductpage .addtocartbtn */
+.singleproductpage .addtocartbtn {
+    background-color: #652700;
+    color: white;
+    border: none;
+}
+
+/* Styles for .singleproductpage .addtocartbtn:hover,.shareproductbtn:hover */
+.singleproductpage .addtocartbtn:hover ,.singleproductpage .shareproductbtn:hover{
+    background-color: rgb(178, 123, 96);
+}
+
+/* Styles for .singleproductpage .shareproductbtn */
+.singleproductpage .shareproductbtn {
+    background: #909090;
+    color: white;
+    border: none;
+}
+
+
+
+/* Styles for .singleproductpage .productinfobtn */
+.singleproductpage .productinfobtn {
+    background: #8F3300;
+    font-family: Open Sans;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+/* Styles for .singleproductpage .productinfobtn:hover */
+.singleproductpage .productinfobtn:hover ,.singleproductpage .addtocart:hover{
+    background-color: rgb(178, 123, 96);
+}
+
+/* Styles for .singleproductpage .additionalinfotbtn */
+.singleproductpage .additionalinfotbtn {
+    background: #000066;
+    font-family: Open Sans;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+/* Styles for .singleproductpage .additionalinfotbtn:hover */
+.singleproductpage .additionalinfotbtn:hover {
+    background: #1e090f;
+    color: white;
+}
+
+/* Styles for .singleproductpage .welcomeparaclses */
+.singleproductpage .welcomeparaclses {
+    font-family: Open Sans;
+    font-weight: 400;
+}
+
+/* Styles for .singleproductpage .relaprds */
+.singleproductpage .relaprds {
+    font-family: Roboto;
+    font-weight: 800;
+    color: #274C5B;
+}
+
+
+
+/* Styles for .singleproductpage .quantity */
+.singleproductpage .quantity {
+    width: 80px;
+}
+
+.singleproductpage .addtocart {
+    color: white;
+    border-radius: 16px;
+    background: #652700;
+  border: none;
+}
+#zoomed-image {
+    transition: transform 0.3s, filter 0.3s ease-in-out;
+}
+#zoomed-image:hover {
+transform: scale(1.5);
+}
+
+/* Add this selector to style the image when it's zoomed in */
+#zoomed-image.zoomed {
+    transform: scale(1.5);
+  
+}
+.singleproductpage .singlecardprdctimg{
+  width: 100%;
+  height: 436px;
+}
+
+.singleproductpage .imgcol img {
+    width: 100%;
+    height: 150px;
+    
+}
+@media screen and (max-width: 760px) {
+    .singleproductpage .singlecardprdctimg {
+      height: 375px !important;
+    }
+    .singleproductpage .imgcol img {
+            width: 50px !important;
+            height: 50px !important;
+    }
+ 
+} 
