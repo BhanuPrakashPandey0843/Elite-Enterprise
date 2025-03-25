@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.118f588b.css",
-    "main.js": "./static/js/main.09dd4571.js",
+    "main.css": "./static/css/main.bbe81b49.css",
+    "main.js": "./static/js/main.b64b7138.js",
     "static/media/leaf.png": "./static/media/leaf.c76a1aa67d87631d3848.png",
     "static/media/image 55.png": "./static/media/image 55.01e41ab2d7e4b1386300.png",
+    "static/media/Elite Enterprise fev icon.png": "./static/media/Elite Enterprise fev icon.8b34615aa495f97ff647.png",
     "static/media/bootstrap-icons.woff?": "./static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
     "static/media/chocolate 1.png": "./static/media/chocolate 1.22c15d2c60692f558e15.png",
-    "static/media/Elite Enterprise fev icon.png": "./static/media/Elite Enterprise fev icon.bee70a8477ecdc3b6670.png",
     "static/media/contact us 2nd image elite enterprise.jpg": "./static/media/contact us 2nd image elite enterprise.b80a3f8e0b715729aa91.jpg",
     "static/media/bootstrap-icons.woff2?": "./static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "static/media/About us.jpg": "./static/media/About us.9939e6eecafc779f306e.jpg",
@@ -17,11 +17,11 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.118f588b.css.map": "./static/css/main.118f588b.css.map",
-    "main.09dd4571.js.map": "./static/js/main.09dd4571.js.map"
+    "main.bbe81b49.css.map": "./static/css/main.bbe81b49.css.map",
+    "main.b64b7138.js.map": "./static/js/main.b64b7138.js.map"
   },
   "entrypoints": [
-    "static/css/main.118f588b.css",
-    "static/js/main.09dd4571.js"
+    "static/css/main.bbe81b49.css",
+    "static/js/main.b64b7138.js"
   ]
 }

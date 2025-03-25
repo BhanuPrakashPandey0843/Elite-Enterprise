@@ -1,43 +1,143 @@
-/* Styles for the custom "Previous" and "Next" buttons */
+/* ========== General Styling ========== */
+.brandsliding {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.brandsliding h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* ========== Custom Navigation Arrows ========== */
 .brandsliding .custom-prev-arrow,
 .brandsliding .custom-next-arrow {
     position: absolute;
     top: 50%;
-    /* Vertically center the buttons */
     transform: translateY(-50%);
-    background-color: #fff;
-    /* Background color for the buttons */
-    padding: 10px 15px;
-    /* Adjust padding as needed */
-    border: 1px solid #ccc;
-    /* Border styles */
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 12px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #333;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
 }
 
+.brandsliding .custom-prev-arrow:hover,
+.brandsliding .custom-next-arrow:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Positioning */
 .brandsliding .custom-prev-arrow {
-    left: 10px;
-    /* Position the "Previous" button on the left */
+    left: -50px;
 }
 
 .brandsliding .custom-next-arrow {
-    right: 10px;
-    /* Position the "Next" button on the right */
+    right: -50px;
 }
 
-.brandsliding .slick-next,.slick-next:before{
-    display: none;
+/* Show arrows on hover */
+.brandsliding:hover .custom-prev-arrow {
+    left: 10px;
 }
-.brandsliding .slick-prev,.slick-prev:before {
-    display: none;
+
+.brandsliding:hover .custom-next-arrow {
+    right: 10px;
 }
- .brandsliding .brandimg{
-    width: 250px;
-    height: 200px;
-    resize: both;
- }
- @media screen and (max-width: 760px) {
+
+/* Hiding default slick arrows */
+.brandsliding .slick-next, 
+.brandsliding .slick-next:before,
+.brandsliding .slick-prev, 
+.brandsliding .slick-prev:before {
+    display: none !important;
+}
+
+/* ========== Brand Cards ========== */
+.brandsliding .brand-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.brandsliding .brand-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* ========== Brand Images (Fixed Size) ========== */
+.brandsliding .brandimg {
+    width: 200px;  /* Fixed width */
+    height: 150px; /* Fixed height */
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brandsliding .brand-card:hover .brandimg {
+    transform: scale(1.1);
+}
+
+/* ========== Responsive Styles ========== */
+@media screen and (max-width: 1024px) {
     .brandsliding .brandimg {
-            width: 100% !important;
-          
-        }
- }
+        width: 180px;
+        height: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .brandsliding .brandimg {
+        width: 160px;
+        height: 120px;
+    }
+
+    .brandsliding .custom-prev-arrow {
+        left: 5px;
+    }
+
+    .brandsliding .custom-next-arrow {
+        right: 5px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .brandsliding {
+        padding: 30px 0;
+    }
+
+    .brandsliding h2 {
+        font-size: 22px;
+    }
+
+    .brandsliding .brandimg {
+        width: 150px;
+        height: 100px;
+    }
+
+    .brandsliding .custom-prev-arrow,
+    .brandsliding .custom-next-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}

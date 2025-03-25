@@ -57,7 +57,7 @@ const Footer = () => {
     window.location.href = `mailto:${emailAddress}`;
   };
 
-  const phoneNumber = "+919820244338";
+  const phoneNumber = "+91 9820244008";
 
   const handlePhoneClick = () => {
     window.location.href = `tel:${phoneNumber}`;
@@ -117,7 +117,7 @@ const Footer = () => {
               </p>
               <Row lg="6" xs="6" md="8" className="justify-content-center">
                 <Col>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/eliteenterprise_mumbai/" target="_blank" rel="noopener noreferrer">
                   <FaInstagram
                      className="rounded-circle p-2"
                       style={{
@@ -156,8 +156,8 @@ const Footer = () => {
                   </a>
                 </Col>
                 <Col>
-                <a href="https://in.pinterest.com/" target="_blank" rel="noopener noreferrer">
-                  <FaPinterest
+                <a href="https://wa.me/9820244638" target="_blank" rel="noopener noreferrer">
+                  <FaWhatsapp
                     className="rounded-circle p-2"
                     style={{
                       width: "40px",

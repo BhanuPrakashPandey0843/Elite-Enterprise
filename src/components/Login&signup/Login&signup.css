@@ -1,35 +1,73 @@
-.logincls .elite{
+.logincls .elite {
     font-family: Viga;
     color: #652700;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
 }
-.logincls .loginaccount ,.signupcls .singupfree{
+
+.logincls .elite:hover {
+    color: #B27B60;
+}
+
+.logincls .loginaccount, .signupcls .signupfree {
     font-family: Abel;
-    
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
 }
-.logincls input ,.signupcls input{
-background: #FFECE5 ;
-border: none;
+
+.logincls input, .signupcls input {
+    background: #FFECE5;
+    border: none;
+    border-radius: 8px;
+    padding: 12px;
+    transition: all 0.3s ease-in-out;
 }
-.logincls input:focus ,.signupcls input:focus{
-box-shadow: none ;
-background: #FFECE5;
-border: none;
+
+.logincls input:focus, .signupcls input:focus {
+    box-shadow: 0px 0px 10px rgba(101, 39, 0, 0.3);
+    background: #FFECE5;
+    border: none;
+    outline: none;
+    transform: scale(1.05);
 }
-.logincls .model{
-    padding-left: 0px;
+
+.logincls input, .signupcls input {
+    color: #3B3B3B;
+    font-family: Abel;
+    font-size: 1rem;
 }
-.logincls input ,.signupcls input{
-color: #3B3B3B;
-font-family: Abel;
-}
-.logincls .forgotlink,.signupcls .haveanaccount{
+
+.logincls .forgotlink, .signupcls .haveanaccount {
     color: #652700;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
+
+.logincls .forgotlink:hover, .signupcls .haveanaccount:hover {
+    color: #B27B60;
+    text-decoration: underline;
+}
+
 .logincls button {
-    background-color: #652700;
+    background: linear-gradient(to right, #652700, #B27B60);
     border: none;
     color: white;
     font-family: Abel;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logincls button:hover {
+    background: linear-gradient(to right, #B27B60, #652700);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
 }
 
 .signupcls button {
@@ -37,13 +75,36 @@ font-family: Abel;
     border: none;
     color: white;
     font-family: Abel;
+    font-size: 1.2rem;
+    padding: 12px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+.signupcls button:hover {
+    background: linear-gradient(to right, #B27B60, #652700);
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
 .logincls .login-popup {
     z-index: 1000;
-    /* Adjust the z-index value as needed */
+    animation: fadeIn 0.5s ease-in-out;
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
 .small-logo {
-    width: 30px;
-    height: 30px;
-  }
-  
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.small-logo:hover {
+    transform: rotate(360deg) scale(1.1);
+}

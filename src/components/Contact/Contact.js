@@ -9,7 +9,7 @@ import {
   FaInstagram,
   FaFacebook,
   FaTwitter,
-  FaPinterest,
+  FaWhatsapp,
 } from "react-icons/fa";
 import "./Contact.css";
 
@@ -97,7 +97,13 @@ const Contact = () => {
                     Contact Us
                     <br />
                   </h5>
-                  <p>+919820244338</p>
+                  <p className="text-black">
+  <a href="tel:+919820244008" className="no-underline text-black">Call +91 9820244008</a>
+</p>
+<p className="text-black">
+  <a href="https://wa.me/919820244638" target="_blank" className="no-underline text-black">WhatsApp +91 9820244638</a>
+</p>
+
                 </Col>
               </Row>
             </div>
@@ -107,7 +113,7 @@ const Contact = () => {
               <FaInstagram className="icons rounded-circle m-1 p-2" />
               <FaFacebook className="icons rounded-circle m-1 p-2" />
               <FaTwitter className="icons rounded-circle m-1 p-2" />
-              <FaPinterest className="icons rounded-circle m-1 p-2" />
+              <FaWhatsapp className="icons rounded-circle m-1 p-2" />
             </Row>
           </Col>
         </Row>
