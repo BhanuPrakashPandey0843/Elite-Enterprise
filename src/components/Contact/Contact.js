@@ -101,7 +101,7 @@ const Contact = () => {
   <a href="tel:+919820244008" className="no-underline text-black">Call +91 9820244008</a>
 </p>
 <p className="text-black">
-  <a href="https://wa.me/919820244638" target="_blank" className="no-underline text-black">WhatsApp +91 9820244638</a>
+  <a href="https://wa.me/919820244638" target="_blank" className="no-underline text-black">WhatsApp +91 9820244008</a>
 </p>
 
                 </Col>
