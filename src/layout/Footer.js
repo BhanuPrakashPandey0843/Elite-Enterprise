@@ -156,7 +156,7 @@ const Footer = () => {
                   </a>
                 </Col>
                 <Col>
-                <a href="https://wa.me/9820244638" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/9820244008" target="_blank" rel="noopener noreferrer">
                   <FaWhatsapp
                     className="rounded-circle p-2"
                     style={{
